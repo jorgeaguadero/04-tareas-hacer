@@ -151,7 +151,7 @@ const mostrarListadoChecklist = async(tareas = []) => {
         return {
             value: tarea.id,
             name: `${idx} ${tarea.desc} `,
-            checked: (tarea.completadaEn) ? true : false
+            checked: (tarea.completadoEn) ? true : false
         }
     })
 
